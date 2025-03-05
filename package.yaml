@@ -22,8 +22,14 @@ dependencies:
 - base >= 4.7 && < 5
 - Yampa
 - sdl2
-- sdl2-ttf
 - linear
+- text
+- array
+- lens
+
+default-extensions:
+- Arrows
+- RecordWildCards
 
 ghc-options:
 - -Wall

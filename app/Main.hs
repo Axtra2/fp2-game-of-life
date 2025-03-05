@@ -1,6 +1,6 @@
 module Main (main) where
 
-import Game
+import Game.Driver
 
 main :: IO ()
-main = gameMain
+main = gameDriver
